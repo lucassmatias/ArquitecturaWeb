@@ -119,3 +119,15 @@ section{
 .info-block img{
     margin-right: 2%;
 }
+.video-block-text{
+    display: flex;
+    align-items: center;
+    margin: 10px 0; 
+}
+
+/*Querie para la hamburguesa en diseño responsivo*/
+@media (width < 800px){
+    .options-list{
+        flex-direction: column;
+    }
+}
