@@ -109,3 +109,13 @@ section{
     width: 40px;
     background-color:aqua;
 }
+.info-block{
+    display: flex;
+    align-items: center;
+}
+.info-block span{
+    margin-right: 2%;
+}
+.info-block img{
+    margin-right: 2%;
+}
