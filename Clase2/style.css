@@ -1,0 +1,111 @@
+:root{
+    --strong: #242424;
+    --soft: #636363;
+}
+body{
+    width: 100%;
+    margin: 0;
+    background-color: var(--strong);
+}
+header{
+    height: 120px;
+    width: 100%;
+    border-bottom: var(--soft) 1px solid;
+}
+.head-floor{
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content:space-between;
+}
+.head-logo{
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    .head-logo-text{
+        color: azure;
+    }
+}
+.head-searchbar{
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.searchbar{
+    height: 70%;
+    width: 100%;
+    margin: 0 15%;
+    background-color: var(--soft);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.padding-img{
+    padding: 10px;
+}
+.searchbar-text{
+    font-family: 'Courier New', Courier, monospace;
+}
+.head-icons{
+    padding-right: 40px;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.font-segoe{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.font-lucida{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.options-block{
+    display: flex;
+    width: fit-content;
+    font-size: 14px;
+    color: aliceblue;
+    flex-wrap: wrap;
+}
+.options-list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    > li{
+        padding: 15px;
+    }
+}
+.head-options{
+    display: flex;
+    align-items: center;
+    padding-left: 8%;
+}
+main{
+    color: aliceblue;
+    margin: 0 25% 0 20%;
+    padding-right: 10%;
+    border-right: var(--soft) 1px solid;
+}
+section{
+    font-size: 20px;
+    margin: 20px;
+}
+.image-block{
+    display: flex;
+    flex-direction: column;
+    >span{
+        font-size: 10px;
+    }
+}
+.gray-div{
+    height: 1px;
+    width: 100%;
+    background-color: var(--soft);
+    margin: 20px 0;
+}
+.blue-div{
+    height: 5px;
+    width: 40px;
+    background-color:aqua;
+}
