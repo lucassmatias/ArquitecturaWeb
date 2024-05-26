@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+    <title>API Canvas</title>
+    <script src="canvasARCO.js"></script>
+    <script>
+        function iniciar() {
+            var elemento = document.getElementById('lienzo');
+            var lienzo1 = elemento.getContext('2d');
+            lienzo1.beginPath();
+            lienzo1.arc(100, 100, 50, Math.PI*2, false);
+            lienzo1.stroke();
+        }
+        window.addEventListener('load', iniciar, false);
+    </script>
+    <script>iniciar()</script>
+</head>
+<body>
+    <section id="cajaliienzo">
+        <canvas id="lienzo" width="500" height="300">
+            Su navegador no permite utilizar canvas.
+        </canvas>
+    </section>
+</body>
+</html>

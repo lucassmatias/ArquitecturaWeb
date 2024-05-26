@@ -1,0 +1,114 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Ej1", "Ej1\", "{5D2C5214-88E9-4EFF-AC09-DA3C2251E799}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49951"
+		Debug.AspNetCompiler.PhysicalPath = "Ej1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49951\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49951"
+		Release.AspNetCompiler.PhysicalPath = "Ej1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49951\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49951"
+		SlnRelativePath = "Ej1\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Ej2Evento", "Ej2Evento\", "{B412E314-D44D-4A53-9369-691C24328B9A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50754"
+		Debug.AspNetCompiler.PhysicalPath = "Ej2Evento\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50754\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50754"
+		Release.AspNetCompiler.PhysicalPath = "Ej2Evento\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50754\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50754"
+		SlnRelativePath = "Ej2Evento\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Ej3Suma", "Ej3Suma\", "{2BF166F5-8E21-4059-A724-B15BEAA1EA45}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50797"
+		Debug.AspNetCompiler.PhysicalPath = "Ej3Suma\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50797\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50797"
+		Release.AspNetCompiler.PhysicalPath = "Ej3Suma\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50797\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50797"
+		SlnRelativePath = "Ej3Suma\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Cookies", "Cookies\", "{2724577F-0D98-47FF-A9C1-E4EDD075AAD7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52080"
+		Debug.AspNetCompiler.PhysicalPath = "Cookies\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52080\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52080"
+		Release.AspNetCompiler.PhysicalPath = "Cookies\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52080\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52080"
+		SlnRelativePath = "Cookies\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D2C5214-88E9-4EFF-AC09-DA3C2251E799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2C5214-88E9-4EFF-AC09-DA3C2251E799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B412E314-D44D-4A53-9369-691C24328B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B412E314-D44D-4A53-9369-691C24328B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF166F5-8E21-4059-A724-B15BEAA1EA45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF166F5-8E21-4059-A724-B15BEAA1EA45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2724577F-0D98-47FF-A9C1-E4EDD075AAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2724577F-0D98-47FF-A9C1-E4EDD075AAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BC10592-E9CC-4FA0-AC5A-598FB9E4FC91}
+	EndGlobalSection
+EndGlobal

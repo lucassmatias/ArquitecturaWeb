@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+
+<script type="text/javascript">
+function rotarImagen() {
+  var canvas = document.getElementById("lienzo");
+  if (canvas.getContext) {
+    var lienzo = canvas.getContext("2d");
+    return lienzo;
+  } else {
+    return false;
+  }
+}
+
+function dibujar() {
+  var lienzo = rotarImagen("lienzo");
+  if (lienzo) {
+    lienzo.clearRect(0,0,600,600);
+    lienzo.save();
+    lienzo.translate(300,300);
+    avance += 0.05;
+    if (avance > Math.PI * 2)
+      avance = 0;
+    lienzo.rotate(avance);
+    lienzo.drawImage(img1, -125, -125);
+    lienzo.restore();
+  }
+}
+
+var avance = 0;
+
+var img1;
+function inicio() {
+  img1 = new Image();
+  img1.src = "./imgs/cat.jpg";
+  setInterval(dibujar, 50);
+}
+</script>
+
+<body onLoad="inicio()">
+<canvas id="lienzo" width="600" height="600">
+Su navegador no permite utilizar canvas.
+</canvas>
+</body>
+</html>
